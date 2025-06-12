@@ -51,7 +51,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/farmbot.git
+git clone https://github.com/Nelson-Tommogo/farmbot.git
 cd farmbot
 
 # Install backend dependencies

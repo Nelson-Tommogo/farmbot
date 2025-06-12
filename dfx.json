@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "fambot_backend": {
+      "main": "src/fambot_backend/main.mo",
+      "type": "motoko"
+    },
+    "fambot_frontend": {
+      "dependencies": [
+        "fambot_backend"
+      ],
+      "source": [
+        "src/fambot_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "fambot_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
